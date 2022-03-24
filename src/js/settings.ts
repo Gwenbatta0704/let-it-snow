@@ -7,5 +7,6 @@ export const settings = {
         opacity: {min: 0.5, max: 0.9},
         speedX: {min: 1, max: 4},
         speedY: {min: 1, max: 6},
+        maxCount:100,
     }
 }
