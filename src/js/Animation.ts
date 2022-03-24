@@ -10,7 +10,6 @@ export const animation ={
     },
     animate(){
         this.canvas.draw();
-        this.canvas.width = window.innerWidth;
         this.snows.forEach((snow:Snowflake)=>{
             snow.update();
         });

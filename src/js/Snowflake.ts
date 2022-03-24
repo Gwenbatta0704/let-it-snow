@@ -46,6 +46,7 @@ export class Snowflake{
             this.speed.y = 0
             this.speed.x = 0
             this.position.y = this.speed.y;
+            this.draw();
         }
         this.position.y -= this.speed.y;
         this.position.x += this.speed.x;

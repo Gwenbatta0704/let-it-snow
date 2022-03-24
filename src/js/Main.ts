@@ -17,6 +17,7 @@ class Main{
         this.ctx = this.canvasElement.getContext('2d');
         this.snows = [];
         this.canvas = new Sky(this.canvasElement, this.mouse);
+        // this.snows = new Skowflake(this.ctx, this.canvasElement, this.mouse);
         this.loadSnow();
         this.animation = animation.init(this.canvas, this.snows)
     }
